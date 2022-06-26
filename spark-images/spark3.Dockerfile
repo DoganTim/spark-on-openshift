@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-slim AS builder
 ARG spark_version=3.0.1
 ARG scala_version=2.12
 ARG hive_version=2.3.7
-ARG hadoop_version=3.3.0
+ARG hadoop_version=3.3.3
 ARG hadoop_major_version=3
 ARG aws_java_sdk_version=1.11.797
 ARG jmx_prometheus_javaagent_version=0.15.0
